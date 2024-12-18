@@ -20,16 +20,18 @@ Follow these steps to set up the project locally:
    git clone https://github.com/mohdshubair313/quiz_app_django.git
    cd quiz_app_django
 2. **Create and activate a virtual environment:**
+ ```bash
 python -m venv env
 .\env\Scripts\activate
 
 3. **Install the required packages:**
+ ```bash
 pip install -r requirements.txt
 
 4. **Apply database migrations:**
   python manage.py migrate
 
-5. **Create a superuser (for accessing the Django admin interface):**
+5 **Create a superuser (for accessing the Django admin interface):**
    python manage.py createsuperuser
 
 6. **Run the development server:**
